@@ -1,0 +1,73 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Presentación
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-card>
+      <ion-row>
+        <ion-col>
+          <ion-card>
+              <ion-grid>
+                <ion-row>
+                  <ion-col size="9">
+                    <h4>Datos Personales:</h4>
+              <br>
+              <p>Nombre: Jefferson Omar Díaz Cando</p>
+              <p>Fecha de nacimiento: 16-09-1994</p>
+              <p>CI: 1723718605</p>
+                  </ion-col>
+                  <ion-col>
+                    <img src="../../assets/images/20200903_101740.jpg" alt="foto perfil">
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+          </ion-card>
+          <ion-card>
+              <h4>Información de Contacto</h4>
+              <p>Direccion domiciliaria: La Magdalena</p>
+              <p>Celular: 096-183-8029</p>
+              <p>email: jefferson.diaz@epn.edu.ec</p>
+          </ion-card>
+          <ion-card>
+            <h4>Estudios:</h4>
+            <p>Primaria: Escuela de Práctica Docente Simón Bolívar</p>
+            <p>Colegio: Instituto Nacional Mejia FIMA</p>
+            <p>Superior: Escuela Politécnica Nacional ASI</p>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+
+  </ion-grid>
+  
+</ion-content>
+<ion-card>
+<ion-footer>
+  <ion-buttons style="text-align: center;">
+    <ion-grid >
+      <ion-row>
+        <ion-col>
+          <ion-button routerLink="/home">
+            <ion-icon name="accessibility-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button routerLink="/cv">
+            <ion-icon name="book-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button routerLink="/cursos">
+            <ion-icon name="checkbox-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-buttons>
+</ion-footer>
+</ion-card>
